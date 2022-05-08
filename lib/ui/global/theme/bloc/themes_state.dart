@@ -12,4 +12,3 @@ class ThemeState extends Equatable {
   // TODO: implement props
   List<Object> get props => [this.themeData];
 }
-
