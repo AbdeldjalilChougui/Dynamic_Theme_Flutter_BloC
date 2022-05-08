@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
             onPressed: () {
               Navigator.of(context).push(MaterialPageRoute(
                 builder: (context) => PreferencePage()
-              ));
+              ),);
             },
           )
         ],
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
         child: Container(
           child: Text(
             'Home',
-            style: Theme.of(context).textTheme.display1,
+            style: Theme.of(context).textTheme.headline1,
           ),
         ),
       ),
