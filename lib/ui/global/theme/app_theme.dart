@@ -25,4 +25,3 @@ final appThemeData = {
       primaryColor: Colors.blue[700]
   ),
 };
-
